@@ -1,0 +1,31 @@
+{
+  "name": "wechaty-room-invite",
+  "version": "0.0.1",
+  "description": "Invite user to rooms by keyword",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test/bot.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/isboyjc/wechaty-room-invite.git"
+  },
+  "keywords": [
+    "wechaty",
+    "wechaty plugin",
+    "wechaty-room-invite",
+    "wechaty-roomInvite",
+    "WechatyRoomInvite"
+  ],
+  "author": "isboyjc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/isboyjc/wechaty-room-invite/issues"
+  },
+  "homepage": "https://github.com/isboyjc/wechaty-room-invite#readme",
+  "dependencies": {
+    "qrcode-terminal": "^0.12.0",
+    "wechaty": "0.39.30",
+    "wechaty-puppet-padplus": "0.7.15"
+  }
+}
