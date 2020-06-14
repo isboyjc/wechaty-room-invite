@@ -1,6 +1,6 @@
 # wechaty-room-invite
 
-[![Wechaty Plugin Contrib](https://img.shields.io/badge/Wechaty%20Plugin-Schedule-brightgreen.svg)](https://github.com/isboyjc/wechaty-room-invite) [![Powered by Wechaty](https://img.shields.io/badge/Powered%20By-Wechaty-brightgreen.svg)](https://github.com/Wechaty/wechaty)
+[![Wechaty Plugin Contrib](https://img.shields.io/badge/Wechaty%20Plugin-wechaty--room--invite-brightgreen.svg)](https://github.com/isboyjc/wechaty-room-invite) [![Powered by Wechaty](https://img.shields.io/badge/Powered%20By-Wechaty-brightgreen.svg)](https://github.com/Wechaty/wechaty)
 
 Invite user to rooms by keyword
 
@@ -12,19 +12,15 @@ Invite user to rooms by keyword
 
 你可以向机器人发送某些关键字，机器人会通过这些关键字邀请你进入对应的房间，当然，可以是多个房间
 
-
-
 ### 安装
 
-```js
+```txt
 npm install wechaty-room-invite
 
 or
 
 yarn add wechaty-room-invite
 ```
-
-
 
 ### 使用
 
@@ -63,8 +59,6 @@ roomList: [
   ...
 ]
 ```
-
-
 
 ### 示例
 
@@ -128,13 +122,11 @@ bot
   .start()
 ```
 
-
-
 ### 最后
 
 扫描二维码，加圈子微信，可进交流群哦，效果如下图，赶快来试试吧
 
-下图为多个群聊管理，只有 `roomList` 数组长度为1时，不会显示 `reply` ，将会直接拉起群邀请
+下图为多个群聊管理，只有 `roomList` 数组长度为 1 时，不会显示 `reply` ，将会直接拉起群邀请
 
 <img src="https://gitee.com/IsboyJC/PictureBed/raw/master/other/asdakshdajshdas1.jpeg" width="200" height="200" alt="图片名称" align=left />
 
